@@ -12,7 +12,7 @@ var transporter = nodemailer.createTransport({
     }
 });
 
-var tesouroDiretoUrl = 'http://www.tesouro.fazen2da.gov.br/tesouro-direto-precos-e-taxas-dos-titulos';
+var tesouroDiretoUrl = 'http://www.tesouro.fazenda.gov.br/tesouro-direto-precos-e-taxas-dos-titulos';
 
 
 request(tesouroDiretoUrl, function(error, response, body) {
